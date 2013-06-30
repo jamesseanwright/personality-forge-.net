@@ -52,3 +52,4 @@ There are some unit tests for this project, but they need to be rewritten as the
 
 * Use regex to extract JSON from crappy API response
 * Utilise the API response's error data
+* Asynchronous usage
