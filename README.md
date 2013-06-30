@@ -48,3 +48,7 @@ A custom error handler can be specified like this:
 
 There are some unit tests for this project, but they need to be rewritten as the library originates from another project. 
 
+## TODO
+
+* Use regex to extract JSON from crappy API response
+* Utilise the API response's error data
