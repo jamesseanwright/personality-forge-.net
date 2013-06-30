@@ -45,9 +45,12 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="PersonalityForge.cs" />
     <Compile Include="Models\APIInfo.cs" />
+    <Compile Include="UnitTests\JsonHelperTests.cs" />
+    <Compile Include="UnitTests\UtilsTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="UnitTests\" />
   </ItemGroup>
 </Project>
