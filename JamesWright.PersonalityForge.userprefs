@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JamesWright.PersonalityForge/PersonalityForgeDataService.cs">
+    <Files>
+      <File FileName="JamesWright.PersonalityForge/PersonalityForge.cs" Line="24" Column="11" />
+      <File FileName="JamesWright.PersonalityForge/Models/Response.cs" Line="7" Column="9" />
+      <File FileName="JamesWright.PersonalityForge/Models/User.cs" Line="10" Column="11" />
+      <File FileName="JamesWright.PersonalityForge/Models/Payload.cs" Line="13" Column="11" />
+      <File FileName="JamesWright.PersonalityForge/Models/Message.cs" Line="16" Column="11" />
+      <File FileName="JamesWright.PersonalityForge/Models/APIInfo.cs" Line="9" Column="17" />
+      <File FileName="JamesWright.PersonalityForge/ErrorHandler.cs" Line="18" Column="27" />
+      <File FileName="JamesWright.PersonalityForge/Utils.cs" Line="8" Column="20" />
+      <File FileName="JamesWright.PersonalityForge/PersonalityForgeDataService.cs" Line="78" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="JamesWright.PersonalityForge" expanded="True">
+            <Node name="PersonalityForgeDataService.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
