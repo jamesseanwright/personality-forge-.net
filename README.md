@@ -1,4 +1,4 @@
-# Personality Forge .NET
+# Personality Forge.NET
 
 A client side .NET library for [The Personality Forge](http://www.personalityforge.com/)'s Secure API.
 
