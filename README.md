@@ -41,7 +41,7 @@ A custom error handler can be specified like this:
 
     ErrorService.CustomHandler = (ex, message, fatal) =>
     {
-        Console.WriteLine(message);
+        // awesome logic
     };
 
 ## Unit tests
