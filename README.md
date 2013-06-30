@@ -1,6 +1,6 @@
 # Personality Forge .NET
 
-A client side .NET library for the Personality Forge's Secure API.
+A client side .NET library for [The Personality Forge](http://www.personalityforge.com/)'s Secure API.
 
 ## Usage
 
@@ -30,6 +30,19 @@ Here's the library's most basic usage within a C# command line application:
             }
         }
     }
+
+## Error handling
+
+The `JamesWright.PersonalityForge` namespace contains a static `ErrorService` class, used to handle errors throughout the invocation of the library. By default, this uses the `Console.Error` TextWriter, but since the .NET stack is ridiculously diverse, it's possible to specify your own error handler.
+
+The `CustomHandler` property allows you to specify your own error handler, using an `Action` object. This property will return the exception, a library-specific message, and a boolean to identify the error as fatal.
+
+A custom error handler can be specified like this:
+
+    ErrorService.CustomHandler = (ex, message, fatal) =>
+    {
+        Console.WriteLine(message);
+    };
 
 ## Unit tests
 
