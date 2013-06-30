@@ -18,7 +18,7 @@ Here's the library's most basic usage within a C# command line application:
     {
         class MainClass
         {
-            public static void Main (string[] args)
+            public static void Main(string[] args)
             {
                 if (PersonalityForge.Initialise("<API Secret>, "<API Key>", <Chatbot ID>))
                 {
