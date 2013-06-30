@@ -4,7 +4,7 @@ A client side .NET library for [The Personality Forge](http://www.personalityfor
 
 ## Usage
 
-The two objects that'll permit you to make calls to the API are the `PersonalityForge` static class and the `Response` model (found in the `Models` namespace).
+The two objects that'll permit you to use the API are the `PersonalityForge` static class and the `Response` model (found in the `Models` namespace).
 
 Once you've called the static class' `Initialise` method, taking your API secret, key, and the remote bot's ID, you can send messages to the API by calling `Send`. This simply takes a screen name and a message, and returns a `Response` object.
 
