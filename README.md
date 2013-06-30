@@ -20,7 +20,7 @@ Here's the library's most basic usage within a C# command line application:
         {
             public static void Main (string[] args)
             {
-                if (PersonalityForge.Initialise("GP1R7xO2FIpRyzpQpgAR70B0iCAr3Nbf", "eqTSixwhSC3GJ5QZ", 93127))
+                if (PersonalityForge.Initialise("<API Secret>, "<API Key>", <Chatbot ID>))
                 {
                     Console.WriteLine("Enter a message:");
                     string message = Console.ReadLine();
