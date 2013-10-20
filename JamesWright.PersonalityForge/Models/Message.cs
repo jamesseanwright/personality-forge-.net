@@ -4,16 +4,19 @@ using System.Runtime.Serialization;
 namespace JamesWright.PersonalityForge.Models
 {
 	[DataContract]
-	class Message
+	public class Message
 	{
 		[DataMember(Name="message")]
-		internal string Text { get; set; }
+		public string Text { get; set; }
 
 		[DataMember(Name="chatBotID")]
-		internal int ChatBotId { get; set; }
+		public int ChatBotId { get; set; }
+
+        [DataMember(Name = "chatBotName")]
+        public string ChatBotName { get; set; }
 
 		[DataMember(Name="timestamp")]
-		internal int Timestamp { get; set; }
+		public int Timestamp { get; set; }
 	}
 }
 

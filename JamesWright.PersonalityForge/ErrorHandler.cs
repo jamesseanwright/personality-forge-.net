@@ -1,15 +1,16 @@
 using System;
 using System.Collections.Generic;
+using JamesWright.PersonalityForge.Interfaces;
 
 namespace JamesWright.PersonalityForge
 {
-	public static class ErrorService
+    public class ErrorService : IErrorService
 	{
-		private static Dictionary<string, string> _messages;
+		private Dictionary<string, string> _messages;
 
-		public static Action<Exception, string, bool> CustomHandler { private get; set; }
+		public Action<Exception, string, bool> CustomHandler { get; set; }
 
-		static ErrorService()
+	    public ErrorService()
 		{
 			_messages = new Dictionary<string, string>();
 			_messages.Add("deserialisation", "Could not create object from JSON response");
@@ -18,7 +19,7 @@ namespace JamesWright.PersonalityForge
 			_messages.Add("response", "Couldn't create response. There's either a problem with the Personality Forge or this program requires an update.");
 		}
 
-		internal static void Handle(Exception e, string message, bool fatal)
+		public void Handle(Exception e, string message, bool fatal)
 		{
 			string messageText;
 

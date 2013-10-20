@@ -1,0 +1,15 @@
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Debug\JamesWright.PersonalityForge.WpfExample.exe.config
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Debug\JamesWright.PersonalityForge.WpfExample.exe
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Debug\JamesWright.PersonalityForge.WpfExample.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Debug\JamesWright.PersonalityForge.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Debug\JamesWright.PersonalityForge.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\JamesWright.PersonalityForge.WpfExample.csprojResolveAssemblyReference.cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\MainWindow.baml
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\MainWindow.g.cs
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\App.g.cs
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\JamesWright.PersonalityForge.WpfExample_MarkupCompile.cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\JamesWright.PersonalityForge.WpfExample.g.resources
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\JamesWright.PersonalityForge.WpfExample.Properties.Resources.resources
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\JamesWright.PersonalityForge.WpfExample.csproj.GenerateResource.Cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\JamesWright.PersonalityForge.WpfExample.exe
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Debug\JamesWright.PersonalityForge.WpfExample.pdb

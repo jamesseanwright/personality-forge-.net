@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesWright.PersonalityForge", "JamesWright.PersonalityForge\JamesWright.PersonalityForge.csproj", "{2F08E438-E9CA-4B6D-BF28-9582216C4C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesWright.PersonalityForge.ConsoleExample", "JamesWright.PersonalityForge.ConsoleExample\JamesWright.PersonalityForge.ConsoleExample.csproj", "{AB956A4F-3697-4B58-9C8F-E7DDCD458981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesWright.PersonalityForge.WpfExample", "JamesWright.PersonalityForge.WpfExample\JamesWright.PersonalityForge.WpfExample.csproj", "{8989596E-6C16-41A9-BC63-BA6936B8604A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,17 @@ Global
 		{2F08E438-E9CA-4B6D-BF28-9582216C4C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F08E438-E9CA-4B6D-BF28-9582216C4C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F08E438-E9CA-4B6D-BF28-9582216C4C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB956A4F-3697-4B58-9C8F-E7DDCD458981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB956A4F-3697-4B58-9C8F-E7DDCD458981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB956A4F-3697-4B58-9C8F-E7DDCD458981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB956A4F-3697-4B58-9C8F-E7DDCD458981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8989596E-6C16-41A9-BC63-BA6936B8604A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8989596E-6C16-41A9-BC63-BA6936B8604A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8989596E-6C16-41A9-BC63-BA6936B8604A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8989596E-6C16-41A9-BC63-BA6936B8604A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = JamesWright.PersonalityForge\JamesWright.PersonalityForge.csproj

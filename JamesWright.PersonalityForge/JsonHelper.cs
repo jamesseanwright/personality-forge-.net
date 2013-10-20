@@ -3,12 +3,15 @@ using System.Runtime.Serialization.Json;
 using System.Runtime.Serialization;
 using System.IO;
 using System.Text;
+using JamesWright.PersonalityForge.Interfaces;
 
 namespace JamesWright.PersonalityForge
 {
-	static class JsonHelper
+    class JsonHelper : IJsonHelper
 	{
-		internal static string ToJson<T>(T obj)
+        private ErrorService _errorService;
+
+		string IJsonHelper.ToJson<T>(T obj)
 		{
 			DataContractJsonSerializer serialiser = new DataContractJsonSerializer(typeof(T));
 			
@@ -17,8 +20,8 @@ namespace JamesWright.PersonalityForge
 			
 			return Encoding.UTF8.GetString(stream.ToArray());
 		}
-		
-		internal static T ToObject<T>(string json)
+
+        T IJsonHelper.ToObject<T>(string json)
 		{
 			DataContractJsonSerializer serialiser = new DataContractJsonSerializer(typeof(T));
 			byte[] jBytes = Encoding.UTF8.GetBytes(json);
@@ -31,12 +34,12 @@ namespace JamesWright.PersonalityForge
 			} 
 			catch (SerializationException se)
 			{
-				ErrorService.Handle(se, "deserialisation", true);
+                _errorService.Handle(se, "deserialisation", true);
 				return default(T);
 			}
 			catch (Exception e)
 			{
-				ErrorService.Handle(e, "general", false);
+                _errorService.Handle(e, "general", false);
 				return default(T);
 			}
 		}

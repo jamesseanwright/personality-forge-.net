@@ -1,0 +1,8 @@
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.ConsoleExample.exe.config
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.ConsoleExample.exe
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.ConsoleExample.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.csprojResolveAssemblyReference.cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.exe
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.pdb

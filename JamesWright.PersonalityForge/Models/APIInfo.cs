@@ -2,7 +2,7 @@ using System;
 
 namespace JamesWright.PersonalityForge
 {
-	class APIInfo
+	class ApiInfo
 	{
 		internal string Secret { get; set; }
 		internal string Key { get; set; }

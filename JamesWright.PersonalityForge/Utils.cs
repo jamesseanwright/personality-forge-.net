@@ -1,6 +1,7 @@
 using System;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Web;
 
 namespace JamesWright.PersonalityForge
@@ -31,9 +32,8 @@ namespace JamesWright.PersonalityForge
 
 		internal static string FilterJson(string text)
 		{
-			const string delimiter = "cess\":1,\"errorMessage\":\"\",\"message\":";
-			string returnValue = text.Substring(text.LastIndexOf(delimiter) + delimiter.Length);
-			return returnValue.Substring(0, returnValue.Length - 1);
+            Match match = Regex.Match(text, "{\"success\".*}");
+            return match.ToString();
 		}
 	}
 }

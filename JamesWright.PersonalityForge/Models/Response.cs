@@ -6,11 +6,14 @@ namespace JamesWright.PersonalityForge.Models
 	[DataContract]
 	public class Response
 	{
-		[DataMember(Name="chatBotName")]
-		public string ChatBotName { get; set; }
+        [DataMember(Name = "message")]
+        public Message Message { get; set; }
 
-		[DataMember(Name="message")]
-		public string Message { get; set; }
+        [DataMember(Name = "success")]
+        public int Success { get; set; }
+
+        [DataMember(Name = "errorMessage")]
+        public string ErrorMessage { get; set; }
 	}
 }
 

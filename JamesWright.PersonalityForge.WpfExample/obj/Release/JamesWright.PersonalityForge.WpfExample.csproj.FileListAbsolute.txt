@@ -1,0 +1,14 @@
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.WpfExample.exe.config
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.WpfExample.exe
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.WpfExample.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.csprojResolveAssemblyReference.cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\MainWindow.baml
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\MainWindow.g.cs
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\App.g.cs
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample_MarkupCompile.cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.g.resources
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.Properties.Resources.resources
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.csproj.GenerateResource.Cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.exe
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.dll

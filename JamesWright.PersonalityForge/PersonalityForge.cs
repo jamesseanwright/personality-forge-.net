@@ -1,28 +1,47 @@
 using System;
 using JamesWright.PersonalityForge.Models;
+using JamesWright.PersonalityForge.Interfaces;
+using System.Threading.Tasks;
 
 namespace JamesWright.PersonalityForge
 {
-	public static class PersonalityForge
+	public class PersonalityForge : IPersonalityForge
 	{
-		private static APIInfo _apiInfo { get; set; }
+		private ApiInfo _apiInfo;
+        private IPersonalityForgeDataService _dataService;
 
-		public static bool Initialise(string secret, string key, int botId)
+        public IErrorService ErrorService { get; set; }
+
+        public PersonalityForge(string secret, string key, int botId)
+        {
+            _apiInfo = new ApiInfo
+            {
+                Secret = secret,
+                Key = key,
+                BotId = botId
+            };
+
+            ErrorService = new ErrorService();
+            _dataService = new PersonalityForgeDataService(new JsonHelper(), ErrorService);
+        }
+
+        //constructor for injecting dependencies
+        PersonalityForge(IPersonalityForgeDataService dataService, IErrorService errorService)
+        {
+            _dataService = dataService;
+            ErrorService = errorService;
+        }
+
+		public Response Send(string username, string message)
 		{
-			_apiInfo = new APIInfo
-			{
-				Secret = secret,
-				Key = key,
-				BotId = botId
-			};
-
-			return true;
+            return _dataService.Send(_apiInfo, username, message);
 		}
 
-		public static Response Send(string username, string message)
-		{
-			return PersonalityForgeDataService.Send(_apiInfo, username, message);
-		}
+        public async Task<Response> SendAsync(string username, string message)
+        {
+            Response response = await _dataService.SendAsync(_apiInfo, username, message);
+            return response;
+        }
 	}
 }
 
