@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace JamesWright.PersonalityForge
 {
-	class PersonalityForgeDataService : IPersonalityForgeDataService
+	public class PersonalityForgeDataService : IPersonalityForgeDataService
 	{
 		private const string _host = "http://www.personalityforge.com/api/chat/";
 		private WebClient _client;
         private IJsonHelper _jsonHelper;
         private IErrorService _errorService;
 
-		internal PersonalityForgeDataService()
+		public PersonalityForgeDataService()
 		{
 			_client = new WebClient();
             _jsonHelper = new JsonHelper();
@@ -23,14 +23,14 @@ namespace JamesWright.PersonalityForge
 		}
 
         //constructor for dependency injection
-        internal PersonalityForgeDataService(IJsonHelper jsonHelper, IErrorService errorService)
+        public PersonalityForgeDataService(IJsonHelper jsonHelper, IErrorService errorService)
         {
             _client = new WebClient();
             _jsonHelper = jsonHelper;
             _errorService = errorService;
         }
 
-        Response IPersonalityForgeDataService.Send(ApiInfo apiInfo, string username, string text)
+        public Response Send(ApiInfo apiInfo, string username, string text)
 		{
             Message message = CreateMessage(text, apiInfo.BotId);
             User user = CreateUser(username);
@@ -51,7 +51,7 @@ namespace JamesWright.PersonalityForge
 			}
 		}
 
-        async Task<Response> IPersonalityForgeDataService.SendAsync(ApiInfo apiInfo, string username, string text)
+        public async Task<Response> IPersonalityForgeDataService.SendAsync(ApiInfo apiInfo, string username, string text)
         {
             Message message = CreateMessage(text, apiInfo.BotId);
             User user = CreateUser(username);

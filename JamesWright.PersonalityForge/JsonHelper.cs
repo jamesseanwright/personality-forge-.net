@@ -7,11 +7,11 @@ using JamesWright.PersonalityForge.Interfaces;
 
 namespace JamesWright.PersonalityForge
 {
-    class JsonHelper : IJsonHelper
+    public class JsonHelper : IJsonHelper
 	{
         private ErrorService _errorService;
 
-		string IJsonHelper.ToJson<T>(T obj)
+		public string ToJson<T>(T obj)
 		{
 			DataContractJsonSerializer serialiser = new DataContractJsonSerializer(typeof(T));
 			
@@ -21,7 +21,7 @@ namespace JamesWright.PersonalityForge
 			return Encoding.UTF8.GetString(stream.ToArray());
 		}
 
-        T IJsonHelper.ToObject<T>(string json)
+        public T ToObject<T>(string json)
 		{
 			DataContractJsonSerializer serialiser = new DataContractJsonSerializer(typeof(T));
 			byte[] jBytes = Encoding.UTF8.GetBytes(json);

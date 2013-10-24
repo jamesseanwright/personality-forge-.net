@@ -26,7 +26,7 @@ namespace JamesWright.PersonalityForge
         }
 
         //constructor for injecting dependencies
-        PersonalityForge(IPersonalityForgeDataService dataService, IErrorService errorService)
+        public PersonalityForge(IPersonalityForgeDataService dataService, IErrorService errorService)
         {
             _dataService = dataService;
             ErrorService = errorService;
