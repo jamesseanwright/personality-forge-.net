@@ -4,6 +4,8 @@ A client side .NET library for [The Personality Forge](http://www.personalityfor
 
 ## Usage
 
+The latest release build is available [here](https://github.com/jamesseanwright/personality-forge-.net/tree/master/JamesWright.PersonalityForge/bin/Release).
+
 The two objects that'll permit you to use the API are the `PersonalityForge` class and the `Response` model (found in the `Models` namespace).
 
 Once you've created an instance of`PersonalityForge`, passing your API secret, key, and the remote bot's ID to its constructor, you can send messages to the API by calling `Send`. This simply takes a screen name and a message, and returns a `Response` object.
@@ -50,7 +52,7 @@ A custom error handler can be specified like this:
 
     _personalityForge.ErrorService.CustomHandler += (ex, message, fatal) =>
                 {
-                    //awesome logic
+                    //do stuff
                 };
 
 ## Asynchronous usage
@@ -63,4 +65,4 @@ See the `JamesWright.PersonalityForge.WpfExample` WPF program to see how asynchr
 
 ## Unit tests
 
-There are some unit tests for this project, but they need to be rewritten as the library originates from another project. 
+The unit tests are currently being ported from the project from which this library is derived.

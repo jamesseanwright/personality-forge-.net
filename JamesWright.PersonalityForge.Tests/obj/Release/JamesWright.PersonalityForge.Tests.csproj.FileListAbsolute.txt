@@ -1,0 +1,8 @@
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\JamesWright.PersonalityForge.Tests.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\JamesWright.PersonalityForge.Tests.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\JamesWright.PersonalityForge.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\Rhino.Mocks.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\Rhino.Mocks.xml
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.csprojResolveAssemblyReference.cache
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.pdb

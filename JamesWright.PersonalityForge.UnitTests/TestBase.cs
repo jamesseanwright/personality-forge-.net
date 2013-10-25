@@ -24,7 +24,7 @@ namespace JamesWright.PersonalityForge.UnitTests
 
         public static TMock GenerateMock<TMock>() where TMock : class
         {
-            return MockRepository.GenerateMock<TM>();
+            return MockRepository.GenerateMock<TMock>();
         }
     }
 }

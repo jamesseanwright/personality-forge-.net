@@ -9,7 +9,18 @@ namespace JamesWright.PersonalityForge
 {
     public class JsonHelper : IJsonHelper
 	{
-        private ErrorService _errorService;
+        private IErrorService _errorService;
+
+        public JsonHelper()
+        {
+            _errorService = new ErrorService();
+        }
+
+        // constructor for dependency injection
+        public JsonHelper(IErrorService errorService)
+        {
+            _errorService = errorService;
+        }
 
 		public string ToJson<T>(T obj)
 		{

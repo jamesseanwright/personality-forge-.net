@@ -1,0 +1,11 @@
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\JamesWright.PersonalityForge.UnitTests.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\JamesWright.PersonalityForge.UnitTests.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\JamesWright.PersonalityForge.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\nunit.framework.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\Rhino.Mocks.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\JamesWright.PersonalityForge.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\nunit.framework.xml
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Debug\Rhino.Mocks.xml
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\obj\Debug\JamesWright.PersonalityForge.UnitTests.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\obj\Debug\JamesWright.PersonalityForge.UnitTests.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\obj\Debug\JamesWright.PersonalityForge.UnitTests.csprojResolveAssemblyReference.cache

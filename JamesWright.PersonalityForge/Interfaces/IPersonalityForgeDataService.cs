@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace JamesWright.PersonalityForge.Interfaces
 {
-    interface IPersonalityForgeDataService
+    public interface IPersonalityForgeDataService
     {
         Response Send(ApiInfo apiInfo, string username, string text);
         Task<Response> SendAsync(ApiInfo apiInfo, string username, string text);

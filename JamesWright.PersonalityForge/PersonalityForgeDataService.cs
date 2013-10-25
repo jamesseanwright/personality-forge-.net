@@ -51,7 +51,7 @@ namespace JamesWright.PersonalityForge
 			}
 		}
 
-        public async Task<Response> IPersonalityForgeDataService.SendAsync(ApiInfo apiInfo, string username, string text)
+        public async Task<Response> SendAsync(ApiInfo apiInfo, string username, string text)
         {
             Message message = CreateMessage(text, apiInfo.BotId);
             User user = CreateUser(username);

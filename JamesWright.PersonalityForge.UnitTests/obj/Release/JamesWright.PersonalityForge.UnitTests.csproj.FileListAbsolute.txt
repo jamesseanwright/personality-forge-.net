@@ -1,0 +1,9 @@
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Release\JamesWright.PersonalityForge.UnitTests.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Release\JamesWright.PersonalityForge.UnitTests.pdb
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Release\JamesWright.PersonalityForge.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Release\nunit.framework.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Release\Rhino.Mocks.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Release\nunit.framework.xml
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\bin\Release\Rhino.Mocks.xml
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\obj\Release\JamesWright.PersonalityForge.UnitTests.dll
+C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.UnitTests\obj\Release\JamesWright.PersonalityForge.UnitTests.pdb
