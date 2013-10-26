@@ -1,6 +1,6 @@
 # Personality Forge.NET
 
-A .NET library for [The Personality Forge](http://www.personalityforge.com/)'s Secure API.
+A .NET library for [The Personality Forge](http://www.personalityforge.com/)'s Secure API. Requires .NET 4.5.
 
 ## Usage
 
