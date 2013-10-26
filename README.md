@@ -4,7 +4,7 @@ A .NET library for [The Personality Forge](http://www.personalityforge.com/)'s S
 
 ## Usage
 
-The latest release build is available [here](https://github.com/jamesseanwright/personality-forge-.net/tree/master/JamesWright.PersonalityForge/bin/Release).
+The latest release build is available via [NuGet](https://www.nuget.org/packages/JamesWright.PersonalityForge/), or in [this](https://github.com/jamesseanwright/personality-forge-.net/tree/master/JamesWright.PersonalityForge/bin/Release) repo folder.
 
 The two objects that'll permit you to use the API are the `PersonalityForge` class and the `Response` model (found in the `Models` namespace).
 
@@ -66,3 +66,7 @@ See the `JamesWright.PersonalityForge.WpfExample` WPF program to see how asynchr
 ## Unit tests
 
 The unit tests are currently being ported from the project from which this library is derived.
+
+## TODO
+
+* Use [InternalsVisibleTo](http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.internalsvisibletoattribute.aspx) attribute to permit unit testing of classes that should be `internal`.
