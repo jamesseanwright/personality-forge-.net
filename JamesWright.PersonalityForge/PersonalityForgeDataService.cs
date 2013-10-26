@@ -90,7 +90,7 @@ namespace JamesWright.PersonalityForge
                 _errorService.Handle(e, "general", false);
 			}
 
-            return response != null ? FilterJson(response) : null;
+            return response != null ? Utils.FilterJson(response) : null;
 		}
 
         private async Task<string> MakeRequestAsync(string request)
@@ -110,7 +110,7 @@ namespace JamesWright.PersonalityForge
                 _errorService.Handle(e, "general", false);
             }
 
-            return response != null ? FilterJson(response) : null;
+            return response != null ? Utils.FilterJson(response) : null;
         }
 
         private User CreateUser(string username)
@@ -143,21 +143,6 @@ namespace JamesWright.PersonalityForge
         private string GetRequestUri(ApiInfo apiInfo, string dataJson)
         {
             return string.Format("{0}?apiKey={1}&hash={2}&message={3}", _host, apiInfo.Key, Utils.GenerateSecret(apiInfo.Secret, dataJson), HttpUtility.UrlEncode(dataJson));
-        }
-
-        private string FilterJson(byte[] response)
-        {
-            try
-            {
-                string resString = Encoding.UTF8.GetString(response);
-                resString = Utils.FilterJson(resString);
-                return resString;
-            }
-            catch (Exception e)
-            {
-                _errorService.Handle(e, "general", false);
-                return null;
-            }
         }
 	}
 }

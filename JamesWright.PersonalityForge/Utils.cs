@@ -3,11 +3,19 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
+using JamesWright.PersonalityForge.Interfaces;
 
 namespace JamesWright.PersonalityForge
 {
 	static class Utils
 	{
+        private static IErrorService _errorService;
+
+        static Utils()
+        {
+            _errorService = new ErrorService();
+        }
+
 		internal static string GenerateSecret(string secret, string data)
 		{
 			HMACSHA256 sha = new HMACSHA256(Encoding.UTF8.GetBytes(secret));
@@ -30,11 +38,20 @@ namespace JamesWright.PersonalityForge
 			return (int)ticks;
 		}
 
-		internal static string FilterJson(string text)
-		{
-            Match match = Regex.Match(text, "{\"success\".*}");
-            return match.ToString();
-		}
+        internal static string FilterJson(byte[] response)
+        {
+            try
+            {
+                string resString = Encoding.UTF8.GetString(response);
+                Match match = Regex.Match(resString, "{\"success\".*}");
+                return match.ToString();
+            }
+            catch (Exception e)
+            {
+                _errorService.Handle(e, "general", false);
+                return null;
+            }
+        }
 	}
 }
 
