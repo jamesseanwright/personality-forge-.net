@@ -19,7 +19,7 @@ Here's the library's usage within a C# command line application:
 
         static void Main(string[] args)
         {
-            _personalityForge = new PersonalityForge("GP1R7xO2FIpRyzpQpgAR70B0iCAr3Nbf", "eqTSixwhSC3GJ5QZ", 93127);
+            _personalityForge = new PersonalityForge(<API Secret>, <API Key>, <Bot ID>);
 
             Console.Write("Enter a username: ");
             string username = Console.ReadLine();
