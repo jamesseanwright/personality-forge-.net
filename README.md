@@ -14,9 +14,9 @@ Here's the library's usage within a C# command line application:
 
     class Program
     {
-	/*the IPersonalityForge interface is available publicly
-	 *in the namespace JamesWright.PersonalityForge.Interfaces
-	 *if you want to mock it in your unit tests!*/
+        /*the IPersonalityForge interface is available publicly
+         *in the namespace JamesWright.PersonalityForge.Interfaces
+         *if you want to mock it in your unit tests!*/
         private static IPersonalityForge _personalityForge;
 
         static void Main(string[] args)
