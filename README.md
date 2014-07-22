@@ -46,7 +46,16 @@ Here's the library's usage within a C# command line application:
 
 ## Error handling
 
-Any exception thrown by the library will be of type `PersonalityForgeException`. This derives from `System.Exception`, thus you can get the `InnerException` property to determine the underlying exception.
+Any exception thrown by the library will be of type `PersonalityForgeException`. This derives from `System.Exception`, thus you can get the `InnerException` property to determine the underlying exception:
+
+    try
+	{
+	    Response response = _personalityForge.Send(username, message);
+	}
+	catch (PersonalityForgeException e)
+	{
+		Console.WriteLine(e.Message);
+	}
 
 ## Asynchronous usage
 
