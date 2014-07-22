@@ -41,15 +41,11 @@ namespace JamesWright.PersonalityForge.Tests
         }
 
         [TestMethod]
+        [ExpectedException(typeof (PersonalityForgeException))]
         public void ItShouldHandleSerializationException()
         {
-            bool isHandlerInvoked = false;
-
             JsonHelper instance = new JsonHelper();
-
             TestObject oops = instance.ToObject<TestObject>("{{\"property\": he");
-
-            Assert.IsTrue(isHandlerInvoked);
         }
     }
 

@@ -14,18 +14,21 @@ namespace JamesWright.PersonalityForge
 		private const string _host = "http://www.personalityforge.com/api/chat/";
 		private WebClient _client;
         private IJsonHelper _jsonHelper;
+        private IUtils _utils;
 
 		public PersonalityForgeDataService()
 		{
 			_client = new WebClient();
             _jsonHelper = new JsonHelper();
+            _utils = new Utils();
 		}
 
         //constructor for dependency injection
-        public PersonalityForgeDataService(IJsonHelper jsonHelper)
+        public PersonalityForgeDataService(IJsonHelper jsonHelper, IUtils utils)
         {
             _client = new WebClient();
             _jsonHelper = jsonHelper;
+            _utils = utils;
         }
 
         public Response Send(ApiInfo apiInfo, string username, string text)
@@ -86,7 +89,7 @@ namespace JamesWright.PersonalityForge
                 throw new PersonalityForgeException(e.Message, e);
 			}
 
-            return response != null ? Utils.FilterJson(response) : null;
+            return response != null ? _utils.FilterJson(response) : null;
 		}
 
         private async Task<string> MakeRequestAsync(string request)
@@ -106,7 +109,7 @@ namespace JamesWright.PersonalityForge
                 throw new PersonalityForgeException(e.Message, e);
             }
 
-            return response != null ? Utils.FilterJson(response) : null;
+            return response != null ? _utils.FilterJson(response) : null;
         }
 
         private User CreateUser(string username)
@@ -122,7 +125,7 @@ namespace JamesWright.PersonalityForge
             return new Message
             {
                 Text = text,
-                Timestamp = Utils.GenerateTimestamp(),
+                Timestamp = _utils.GenerateTimestamp(),
                 ChatBotId = botId
             };
         }
@@ -138,7 +141,7 @@ namespace JamesWright.PersonalityForge
 
         private string GetRequestUri(ApiInfo apiInfo, string dataJson)
         {
-            return string.Format("{0}?apiKey={1}&hash={2}&message={3}", _host, apiInfo.Key, Utils.GenerateSecret(apiInfo.Secret, dataJson), HttpUtility.UrlEncode(dataJson));
+            return string.Format("{0}?apiKey={1}&hash={2}&message={3}", _host, apiInfo.Key, _utils.GenerateSecret(apiInfo.Secret, dataJson), HttpUtility.UrlEncode(dataJson));
         }
 	}
 }

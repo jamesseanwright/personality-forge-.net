@@ -43,6 +43,7 @@
     <Compile Include="Interfaces\IJsonHelper.cs" />
     <Compile Include="Interfaces\IPersonalityForge.cs" />
     <Compile Include="Interfaces\IPersonalityForgeDataService.cs" />
+    <Compile Include="Interfaces\IUtils.cs" />
     <Compile Include="JsonHelper.cs" />
     <Compile Include="PersonalityForgeDataService.cs" />
     <Compile Include="PersonalityForgeException.cs" />

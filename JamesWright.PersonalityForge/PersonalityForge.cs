@@ -19,7 +19,7 @@ namespace JamesWright.PersonalityForge
                 BotId = botId
             };
 
-            _dataService = new PersonalityForgeDataService(new JsonHelper());
+            _dataService = new PersonalityForgeDataService(new JsonHelper(), new Utils());
         }
 
         //constructor for injecting dependencies
