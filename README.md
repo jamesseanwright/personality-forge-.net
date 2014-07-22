@@ -67,4 +67,4 @@ See the `JamesWright.PersonalityForge.WpfExample` WPF program to see how asynchr
 
 ## Unit tests
 
-The unit tests are currently being ported from the project from which this library is derived.
+There are currently a handful of unit tests. There are more on the way!
