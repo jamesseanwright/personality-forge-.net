@@ -44,16 +44,7 @@ Here's the library's usage within a C# command line application:
 
 ## Error handling
 
-The `PersonalityForge` class contains a `ErrorService` property, used to handle errors throughout the invocation of the library. By default, this uses the `Console.Error` TextWriter, but since the .NET stack is ridiculously diverse, it's possible to specify your own error handler.
-
-The `CustomHandler` property allows you to specify your own error handler, using an `Action` object. This property will return the exception, a library-specific message, and a boolean to identify the error as fatal.
-
-A custom error handler can be specified like this:
-
-    _personalityForge.ErrorService.CustomHandler += (ex, message, fatal) =>
-                {
-                    //do stuff
-                };
+Any exception thrown by the library will be of type `PersonalityForgeException`. This derives from `System.Exception`, thus you can get the `InnerException` property to determine the underlying exception.
 
 ## Asynchronous usage
 
@@ -66,7 +57,3 @@ See the `JamesWright.PersonalityForge.WpfExample` WPF program to see how asynchr
 ## Unit tests
 
 The unit tests are currently being ported from the project from which this library is derived.
-
-## TODO
-
-* Use [InternalsVisibleTo](http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.internalsvisibletoattribute.aspx) attribute to permit unit testing of classes that should be `internal`.

@@ -36,13 +36,13 @@ namespace JamesWright.PersonalityForge
 			{
 				return (T)serialiser.ReadObject(stream);
 			} 
-			catch (SerializationException se)
+			catch (SerializationException e)
 			{
-				return default(T);
+                throw new PersonalityForgeException(e.Message, e);
 			}
 			catch (Exception e)
 			{
-				return default(T);
+                throw new PersonalityForgeException(e.Message, e);
 			}
 		}
 	}

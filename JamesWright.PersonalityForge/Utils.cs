@@ -42,7 +42,7 @@ namespace JamesWright.PersonalityForge
             }
             catch (Exception e)
             {
-                return null;
+                throw new PersonalityForgeException(e.Message, e);
             }
         }
 	}

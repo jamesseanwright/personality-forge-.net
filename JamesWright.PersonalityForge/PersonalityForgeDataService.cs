@@ -44,7 +44,7 @@ namespace JamesWright.PersonalityForge
 			}
 			catch (Exception e)
 			{
-                return null;
+                throw new PersonalityForgeException(e.Message, e);
 			}
 		}
 
@@ -65,7 +65,7 @@ namespace JamesWright.PersonalityForge
             }
             catch (Exception e)
             {
-                return null;
+                throw new PersonalityForgeException(e.Message, e);
             }
         }
 
@@ -77,11 +77,13 @@ namespace JamesWright.PersonalityForge
 			{
 				response = _client.DownloadData(new Uri(request));
 			} 
-			catch (WebException we) 
+			catch (WebException e) 
 			{
+                throw new PersonalityForgeException(e.Message, e);
 			} 
 			catch (Exception e) 
 			{
+                throw new PersonalityForgeException(e.Message, e);
 			}
 
             return response != null ? Utils.FilterJson(response) : null;
@@ -95,11 +97,13 @@ namespace JamesWright.PersonalityForge
             {
                 response = await _client.DownloadDataTaskAsync(new Uri(request));
             }
-            catch (WebException we)
+            catch (WebException e)
             {
+                throw new PersonalityForgeException(e.Message, e);
             }
             catch (Exception e)
             {
+                throw new PersonalityForgeException(e.Message, e);
             }
 
             return response != null ? Utils.FilterJson(response) : null;
