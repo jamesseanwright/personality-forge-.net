@@ -67,4 +67,4 @@ See the `JamesWright.PersonalityForge.WpfExample` WPF program to see how asynchr
 
 ## Unit tests
 
-There are currently a handful of unit tests. There are more on the way!
+There is currently a handful of unit tests. There are more on the way!
