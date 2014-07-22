@@ -5,3 +5,11 @@ C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bi
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\Rhino.Mocks.xml
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.dll
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\JamesWright.PersonalityForge.Tests.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\JamesWright.PersonalityForge.Tests.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\Rhino.Mocks.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Release\Rhino.Mocks.xml
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Release\JamesWright.PersonalityForge.Tests.csprojResolveAssemblyReference.cache

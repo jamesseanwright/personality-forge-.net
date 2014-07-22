@@ -4,23 +4,16 @@ using System.Runtime.Serialization;
 using System.IO;
 using System.Text;
 using JamesWright.PersonalityForge.Interfaces;
+using System.Runtime.CompilerServices;
 
 namespace JamesWright.PersonalityForge
 {
-    public class JsonHelper : IJsonHelper
+    internal class JsonHelper : IJsonHelper
 	{
-        private IErrorService _errorService;
-
         public JsonHelper()
         {
-            _errorService = new ErrorService();
         }
 
-        // constructor for dependency injection
-        public JsonHelper(IErrorService errorService)
-        {
-            _errorService = errorService;
-        }
 
 		public string ToJson<T>(T obj)
 		{
@@ -45,12 +38,10 @@ namespace JamesWright.PersonalityForge
 			} 
 			catch (SerializationException se)
 			{
-                _errorService.Handle(se, "deserialisation", true);
 				return default(T);
 			}
 			catch (Exception e)
 			{
-                _errorService.Handle(e, "general", false);
 				return default(T);
 			}
 		}

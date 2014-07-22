@@ -4,18 +4,12 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
 using JamesWright.PersonalityForge.Interfaces;
+using System.Runtime.CompilerServices;
 
 namespace JamesWright.PersonalityForge
 {
 	static class Utils
 	{
-        private static IErrorService _errorService;
-
-        static Utils()
-        {
-            _errorService = new ErrorService();
-        }
-
 		internal static string GenerateSecret(string secret, string data)
 		{
 			HMACSHA256 sha = new HMACSHA256(Encoding.UTF8.GetBytes(secret));
@@ -48,7 +42,6 @@ namespace JamesWright.PersonalityForge
             }
             catch (Exception e)
             {
-                _errorService.Handle(e, "general", false);
                 return null;
             }
         }

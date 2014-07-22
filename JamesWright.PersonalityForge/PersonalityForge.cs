@@ -10,8 +10,6 @@ namespace JamesWright.PersonalityForge
 		private ApiInfo _apiInfo;
         private IPersonalityForgeDataService _dataService;
 
-        public IErrorService ErrorService { get; set; }
-
         public PersonalityForge(string secret, string key, int botId)
         {
             _apiInfo = new ApiInfo
@@ -21,15 +19,13 @@ namespace JamesWright.PersonalityForge
                 BotId = botId
             };
 
-            ErrorService = new ErrorService();
-            _dataService = new PersonalityForgeDataService(new JsonHelper(), ErrorService);
+            _dataService = new PersonalityForgeDataService(new JsonHelper());
         }
 
         //constructor for injecting dependencies
-        public PersonalityForge(IPersonalityForgeDataService dataService, IErrorService errorService)
+        internal PersonalityForge(IPersonalityForgeDataService dataService)
         {
             _dataService = dataService;
-            ErrorService = errorService;
         }
 
 		public Response Send(string username, string message)

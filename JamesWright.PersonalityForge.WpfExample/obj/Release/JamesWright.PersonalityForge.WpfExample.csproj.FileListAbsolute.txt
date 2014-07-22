@@ -12,3 +12,17 @@ C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExamp
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.exe
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.pdb
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.WpfExample.exe.config
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.WpfExample.exe
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.WpfExample.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\bin\Release\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.csprojResolveAssemblyReference.cache
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\MainWindow.baml
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\MainWindow.g.cs
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\App.g.cs
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample_MarkupCompile.cache
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.g.resources
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.Properties.Resources.resources
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.csproj.GenerateResource.Cache
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.exe
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.WpfExample\obj\Release\JamesWright.PersonalityForge.WpfExample.pdb

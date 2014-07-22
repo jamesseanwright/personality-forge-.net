@@ -1,8 +1,9 @@
 using System;
+using System.Runtime.CompilerServices;
 
 namespace JamesWright.PersonalityForge
 {
-	public class ApiInfo
+	internal class ApiInfo
 	{
 		internal string Secret { get; set; }
 		internal string Key { get; set; }

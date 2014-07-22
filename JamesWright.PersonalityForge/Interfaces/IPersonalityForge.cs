@@ -9,7 +9,6 @@ namespace JamesWright.PersonalityForge.Interfaces
 {
     public interface IPersonalityForge
     {
-        IErrorService ErrorService { get; set; }
         Response Send(string username, string message);
         Task<Response> SendAsync(string username, string message);
     }

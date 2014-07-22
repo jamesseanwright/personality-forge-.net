@@ -1,10 +1,11 @@
 using System;
+using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 
 namespace JamesWright.PersonalityForge.Models
 {
 	[DataContract]
-	class Payload
+	internal class Payload
 	{
 		[DataMember(Name="message")]
 		internal Message Message { get; set; }

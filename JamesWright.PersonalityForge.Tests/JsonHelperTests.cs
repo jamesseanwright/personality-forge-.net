@@ -7,21 +7,19 @@ namespace JamesWright.PersonalityForge.Tests
     [TestClass]
     public class JsonHelperTests : TestBase
     {
-        private ErrorService _errService;
         private readonly string _json;
 
         private const string PropValue = "hello";
 
         public JsonHelperTests()
         {
-            _errService = new ErrorService();
             _json = string.Format("{{\"property\":\"{0}\"}}", PropValue);
         }
 
         [TestMethod]
         public void ItShouldConvertStringToObject()
         {
-            JsonHelper instance = new JsonHelper(_errService);
+            JsonHelper instance = new JsonHelper();
 
             TestObject model = instance.ToObject<TestObject>(_json);
 
@@ -33,7 +31,7 @@ namespace JamesWright.PersonalityForge.Tests
         [TestMethod]
         public void ItShouldConvertObjectToString()
         {
-            JsonHelper instance = new JsonHelper(_errService);
+            JsonHelper instance = new JsonHelper();
             TestObject model = new TestObject { Property = PropValue };
 
             string result = instance.ToJson<TestObject>(model);
@@ -47,12 +45,7 @@ namespace JamesWright.PersonalityForge.Tests
         {
             bool isHandlerInvoked = false;
 
-            _errService.CustomHandler += (ex, msg, fatal) =>
-                {
-                    isHandlerInvoked = true;
-                };
-
-            JsonHelper instance = new JsonHelper(_errService);
+            JsonHelper instance = new JsonHelper();
 
             TestObject oops = instance.ToObject<TestObject>("{{\"property\": he");
 

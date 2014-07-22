@@ -1,2 +1,4 @@
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge\bin\Release\JamesWright.PersonalityForge.dll
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge\obj\Release\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge\bin\Release\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge\obj\Release\JamesWright.PersonalityForge.dll

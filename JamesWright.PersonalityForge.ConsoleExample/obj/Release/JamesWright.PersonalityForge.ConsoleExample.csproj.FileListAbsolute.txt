@@ -5,3 +5,10 @@ C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleE
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Release\JamesWright.PersonalityForge.ConsoleExample.csprojResolveAssemblyReference.cache
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Release\JamesWright.PersonalityForge.ConsoleExample.exe
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Release\JamesWright.PersonalityForge.ConsoleExample.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Release\JamesWright.PersonalityForge.ConsoleExample.exe.config
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Release\JamesWright.PersonalityForge.ConsoleExample.exe
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Release\JamesWright.PersonalityForge.ConsoleExample.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Release\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Release\JamesWright.PersonalityForge.ConsoleExample.exe
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Release\JamesWright.PersonalityForge.ConsoleExample.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Release\JamesWright.PersonalityForge.ConsoleExample.csprojResolveAssemblyReference.cache

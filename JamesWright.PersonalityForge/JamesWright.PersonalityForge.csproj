@@ -40,13 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="ErrorHandler.cs" />
-    <Compile Include="Interfaces\IErrorService.cs" />
     <Compile Include="Interfaces\IJsonHelper.cs" />
     <Compile Include="Interfaces\IPersonalityForge.cs" />
     <Compile Include="Interfaces\IPersonalityForgeDataService.cs" />
     <Compile Include="JsonHelper.cs" />
     <Compile Include="PersonalityForgeDataService.cs" />
+    <Compile Include="PersonalityForgeException.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="Models\Message.cs" />
     <Compile Include="Models\Payload.cs" />

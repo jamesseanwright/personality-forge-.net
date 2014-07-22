@@ -5,29 +5,27 @@ using System.Web;
 using JamesWright.PersonalityForge.Models;
 using JamesWright.PersonalityForge.Interfaces;
 using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
 
 namespace JamesWright.PersonalityForge
 {
-	public class PersonalityForgeDataService : IPersonalityForgeDataService
+	internal class PersonalityForgeDataService : IPersonalityForgeDataService
 	{
 		private const string _host = "http://www.personalityforge.com/api/chat/";
 		private WebClient _client;
         private IJsonHelper _jsonHelper;
-        private IErrorService _errorService;
 
 		public PersonalityForgeDataService()
 		{
 			_client = new WebClient();
             _jsonHelper = new JsonHelper();
-            _errorService = new ErrorService();
 		}
 
         //constructor for dependency injection
-        public PersonalityForgeDataService(IJsonHelper jsonHelper, IErrorService errorService)
+        public PersonalityForgeDataService(IJsonHelper jsonHelper)
         {
             _client = new WebClient();
             _jsonHelper = jsonHelper;
-            _errorService = errorService;
         }
 
         public Response Send(ApiInfo apiInfo, string username, string text)
@@ -46,7 +44,6 @@ namespace JamesWright.PersonalityForge
 			}
 			catch (Exception e)
 			{
-				_errorService.Handle(e, "response", false);
                 return null;
 			}
 		}
@@ -68,7 +65,6 @@ namespace JamesWright.PersonalityForge
             }
             catch (Exception e)
             {
-                _errorService.Handle(e, "response", false);
                 return null;
             }
         }
@@ -83,11 +79,9 @@ namespace JamesWright.PersonalityForge
 			} 
 			catch (WebException we) 
 			{
-				_errorService.Handle(we, "web", true);
 			} 
 			catch (Exception e) 
 			{
-                _errorService.Handle(e, "general", false);
 			}
 
             return response != null ? Utils.FilterJson(response) : null;
@@ -103,11 +97,9 @@ namespace JamesWright.PersonalityForge
             }
             catch (WebException we)
             {
-                _errorService.Handle(we, "web", true);
             }
             catch (Exception e)
             {
-                _errorService.Handle(e, "general", false);
             }
 
             return response != null ? Utils.FilterJson(response) : null;
