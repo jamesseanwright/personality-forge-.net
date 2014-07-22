@@ -2,3 +2,7 @@ C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge\bin\Debu
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge\bin\Debug\JamesWright.PersonalityForge.pdb
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge\obj\Debug\JamesWright.PersonalityForge.dll
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge\obj\Debug\JamesWright.PersonalityForge.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge\bin\Debug\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge\bin\Debug\JamesWright.PersonalityForge.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge\obj\Debug\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge\obj\Debug\JamesWright.PersonalityForge.pdb

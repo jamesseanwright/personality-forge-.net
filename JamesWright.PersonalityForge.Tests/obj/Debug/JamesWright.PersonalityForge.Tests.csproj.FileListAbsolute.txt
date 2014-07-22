@@ -6,3 +6,12 @@ C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bi
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Debug\Rhino.Mocks.xml
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Debug\JamesWright.PersonalityForge.Tests.dll
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Debug\JamesWright.PersonalityForge.Tests.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Debug\JamesWright.PersonalityForge.Tests.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Debug\JamesWright.PersonalityForge.Tests.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Debug\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Debug\Rhino.Mocks.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Debug\JamesWright.PersonalityForge.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\bin\Debug\Rhino.Mocks.xml
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Debug\JamesWright.PersonalityForge.Tests.csprojResolveAssemblyReference.cache
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Debug\JamesWright.PersonalityForge.Tests.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.Tests\obj\Debug\JamesWright.PersonalityForge.Tests.pdb

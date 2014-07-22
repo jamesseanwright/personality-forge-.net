@@ -6,3 +6,11 @@ C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleE
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.csprojResolveAssemblyReference.cache
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.exe
 C:\Users\TheWrights\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.ConsoleExample.exe.config
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.exe
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.ConsoleExample.exe
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.ConsoleExample.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.dll
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\bin\Debug\JamesWright.PersonalityForge.pdb
+C:\Users\james_000\Documents\Visual Studio 2013\Projects\personality-forge-.net\JamesWright.PersonalityForge.ConsoleExample\obj\Debug\JamesWright.PersonalityForge.ConsoleExample.csprojResolveAssemblyReference.cache
