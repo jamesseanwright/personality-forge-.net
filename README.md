@@ -6,7 +6,7 @@ A .NET library for [The Personality Forge](http://www.personalityforge.com/)'s S
 
 The latest release build is available via [NuGet](https://www.nuget.org/packages/JamesWright.PersonalityForge/), or in [this](https://github.com/jamesseanwright/personality-forge-.net/tree/master/JamesWright.PersonalityForge/bin/Release) repo folder.
 
-The two objects that'll permit you to use the API are the `PersonalityForge` class and the `Response` model (found in the `Models` namespace).
+The 3 classes that'll permit you to use the API are `PersonalityForge`, `Message`, and `Response` (the last two being located in the `Models` namespace).
 
 Once you've created an instance of`PersonalityForge`, passing your API secret, key, and the remote bot's ID to its constructor, you can send messages to the API by calling `Send`. This simply takes a screen name and a message, and returns a `Response` object.
 
