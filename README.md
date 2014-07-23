@@ -2,6 +2,10 @@
 
 A .NET library for [The Personality Forge](http://www.personalityforge.com/)'s Secure API.
 
+## Release Notes ##
+
+They can be found [here](https://github.com/jamesseanwright/personality-forge-.net/wiki/Release-Notes).
+
 ## Usage
 
 The latest release build is available via [NuGet](https://www.nuget.org/packages/JamesWright.PersonalityForge/), or in [this](https://github.com/jamesseanwright/personality-forge-.net/tree/master/JamesWright.PersonalityForge/bin/Release) repo folder.
