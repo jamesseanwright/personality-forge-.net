@@ -8,11 +8,11 @@ using System.Runtime.CompilerServices;
 
 namespace JamesWright.PersonalityForge
 {
-    internal class JsonHelper : IJsonHelper
+	internal class JsonHelper : IJsonHelper
 	{
-        public JsonHelper()
-        {
-        }
+		public JsonHelper()
+		{
+		}
 
 
 		public string ToJson<T>(T obj)
@@ -25,7 +25,7 @@ namespace JamesWright.PersonalityForge
 			return Encoding.UTF8.GetString(stream.ToArray());
 		}
 
-        public T ToObject<T>(string json)
+		public T ToObject<T>(string json)
 		{
 			DataContractJsonSerializer serialiser = new DataContractJsonSerializer(typeof(T));
 			byte[] jBytes = Encoding.UTF8.GetBytes(json);
@@ -38,13 +38,12 @@ namespace JamesWright.PersonalityForge
 			} 
 			catch (SerializationException e)
 			{
-                throw new PersonalityForgeException(e.Message, e);
+				throw new PersonalityForgeException(e.Message, e);
 			}
 			catch (Exception e)
 			{
-                throw new PersonalityForgeException(e.Message, e);
+				throw new PersonalityForgeException(e.Message, e);
 			}
 		}
 	}
 }
-
