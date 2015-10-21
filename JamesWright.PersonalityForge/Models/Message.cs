@@ -12,11 +12,10 @@ namespace JamesWright.PersonalityForge.Models
 		[DataMember(Name="chatBotID")]
 		public int ChatBotId { get; set; }
 
-        [DataMember(Name = "chatBotName")]
-        public string ChatBotName { get; set; }
+		[DataMember(Name = "chatBotName")]
+		public string ChatBotName { get; set; }
 
 		[DataMember(Name="timestamp")]
 		public int Timestamp { get; set; }
 	}
 }
-
