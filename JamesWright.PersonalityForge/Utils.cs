@@ -25,26 +25,25 @@ namespace JamesWright.PersonalityForge
 			return builder.ToString();
 		}
 
-        public int GenerateTimestamp()
+		public int GenerateTimestamp()
 		{
 			long ticks = DateTime.UtcNow.Ticks - DateTime.Parse("01/01/1970 00:00:00").Ticks;
 			ticks /= 10000000;
 			return (int)ticks;
 		}
 
-        public string FilterJson(byte[] response)
-        {
-            try
-            {
-                string resString = Encoding.UTF8.GetString(response);
-                Match match = Regex.Match(resString, "{\"success\".*}");
-                return match.ToString();
-            }
-            catch (Exception e)
-            {
-                throw new PersonalityForgeException(e.Message, e);
-            }
-        }
+		public string FilterJson(byte[] response)
+		{
+			try
+			{
+				string resString = Encoding.UTF8.GetString(response);
+				Match match = Regex.Match(resString, "{\"success\".*}");
+				return match.ToString();
+			}
+			catch (Exception e)
+			{
+				throw new PersonalityForgeException(e.Message, e);
+			}
+		}
 	}
 }
-
